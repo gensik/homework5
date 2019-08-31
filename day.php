@@ -13,7 +13,7 @@ if ($a >0 & $a <= 10) {
 
 
 
-$month = $_GET;
+$month = $_GET['month'];
 
 if ($month >= 3 & $month <= 5 ) {
     echo 'Vesna';
